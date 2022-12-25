@@ -167,6 +167,26 @@ input:focus {
     color: silver;
 }
 
+.custom-select {
+    padding-left: 15px;
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: silver;
+}
+
+.custom-select:focus {
+    outline: none;
+    border: none;
+}
+
 #first-input {
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
@@ -186,4 +206,21 @@ input:focus {
 }
 #last-input:hover {
     background-color: #28c0b8;
+}
+
+.footer-main-content {
+    position: absolute;
+    bottom: 30px;
+}
+
+.footer-contacts {
+    display: flex;
+    cursor: pointer;
+    gap: 15px;
+    color: white;
+    font-size: 18pt;
+}
+
+a, a:visited{
+    color: white;
 }
